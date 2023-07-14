@@ -2,7 +2,7 @@
 Hello from Team B! Here's what we've accomplished, please check it out!
 
 ## ERD (Data Modeling):
-https://drive.google.com/file/d/1mMXdnDxp1i_njG4ad9Z4ZC5P6nFJzzry/view?usp=sharing 
+![ERD](https://github.com/skyler288/sql-challenge/blob/main/ERD.png)
 
 ## Data Engineering
 
@@ -20,15 +20,15 @@ https://drive.google.com/file/d/1mMXdnDxp1i_njG4ad9Z4ZC5P6nFJzzry/view?usp=shari
 **Node.js**
 |Endpoint|Method|Body|
 |-------|:----:|:---:|
-|`emp`|`GET`|`nama`, `email`, `username`, `password`, `confirm_password`|
-|`/emp/{emp_no}`|`GET`|`usernameEmail`,`password`|
-|`/dep`|`GET`|`nama`, `email`, `username`|
-|`/dep/{dep_no}`|`GET`|`nama`, `email`, `username`|
-|`/da/satu`|`GET`|`password`, ` confirm_password`|
-|`/da/dua`|`GET`|`password`, ` confirm_password`|
-|`/da/tiga`|`GET`|`password`, ` confirm_password`|
-|`/da/empat`|`GET`|`password`, ` confirm_password`|
-|`/da/lima`|`GET`|`password`, ` confirm_password`|
-|`/da/enam`|`GET`|`password`, ` confirm_password`|
-|`/da/tujuh`|`GET`|`password`, ` confirm_password`|
-|`/da/delapan`|`GET`|`password`, ` confirm_password`|
+|`/emp`|`GET`|`emp_no`, `emp_title_id`, `birth_date`, `first_name`, `last_name`, `sex`, `hire_date`|
+|`/emp/{emp_no}`|`GET`|`emp_no`, `emp_title_id`, `birth_date`, `first_name`, `last_name`, `sex`, `hire_date`|
+|`/dep`|`GET`|`dept_no`, `dept_name`|
+|`/dep/{dep_no}`|`GET`|`dept_no`, `dept_name`|
+|`/da/satu`|`GET`|`emp_no`, `last_name`, `first_name`, `sex`, `salary`|
+|`/da/dua`|`GET`|`first_name`, `last_name`, `hire_date`|
+|`/da/tiga`|`GET`|`dept_no`, `dept_name`, `emp_no`, `last_name`, `first_name`|
+|`/da/empat`|`GET`|`emp_no`, `last_name`, `first_name`,`dept_name`|
+|`/da/lima`|`GET`|`first_name`, `last_name`, `sex`, `first_name`,`dept_name`|
+|`/da/enam`|`GET`|`emp_no`, `last_name`,  `first_name`, `dept_name`|
+|`/da/tujuh`|`GET`|`emp_no`, `last_name`, `first_name`, `dept_name`|
+|`/da/delapan`|`GET`|`last_name`, `total_emp`|
