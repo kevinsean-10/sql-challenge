@@ -42,32 +42,32 @@
 -- SET datestyle = 'ISO, MDY';
 
 -- COPY salaries
--- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\salaries.csv'
+-- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\salaries.csv' -- change to your dir
 -- DELIMITER ','
 -- CSV HEADER;
 
 -- COPY employees
--- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\employees.csv'
+-- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\employees.csv' -- change to your dir
 -- DELIMITER ','
 -- CSV HEADER;
 
 -- COPY titles
--- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\titles.csv'
+-- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\titles.csv' -- change to your dir
 -- DELIMITER ','
 -- CSV HEADER;
 
 -- COPY dept_employees
--- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\dept_employees.csv'
+-- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\dept_employees.csv' -- change to your dir
 -- DELIMITER ','
 -- CSV HEADER;
 
 -- COPY departments
--- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\departments.csv'
+-- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\departments.csv' -- change to your dir
 -- DELIMITER ','
 -- CSV HEADER;
 
 -- COPY dept_manager
--- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\dept_manager.csv'
+-- FROM 'D:\OneDrive - Institut Teknologi Bandung\[NONAKADEMIK]\Internship\Astra\Data Management\Challenge\sql-challenge-main\EmployeeSQL\data\dept_manager.csv' -- change to your dir
 -- DELIMITER ','
 -- CSV HEADER;
 
