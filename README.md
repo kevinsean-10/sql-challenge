@@ -2,7 +2,7 @@
 Hello from Team B! Here's what we've accomplished, please check it out!
 
 ## ERD (Data Modeling):
-![ERD](https://github.com/skyler288/sql-challenge/blob/main/ERD.png)
+![ERD](https://github.com/skyler288/sql-challenge/blob/main/ERD.png) 
 
 ## Data Engineering
 
