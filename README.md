@@ -4,18 +4,13 @@ Hello from Team B! Here's what we've accomplished, please check it out!
 ## ERD (Data Modeling):
 ![ERD](https://github.com/skyler288/sql-challenge/blob/main/ERD.png)
 
-## Data Engineering
-
-## Data Analysis
-* With Bigquery : https://console.cloud.google.com/bigquery?sq=563744052132:bf71cddf2d154e17b20ec65bab72ab09 
-* With PostgreSQL :
+## SQL  
+* With PostgreSQL : https://github.com/skyler288/sql-challenge/tree/postgresql/PostgreSQL
 
 ## Bonus
-* With Pandas : 
-* With Library PostgreSQL :
+* With Library PostgreSQL : https://github.com/skyler288/sql-challenge/tree/postgresql/Bonus
 
 ## API
-* With Node.js (Express) : [https://github.com/skyler288/sql-challenge.git](https://github.com/skyler288/sql-challenge/tree/express-branch)https://github.com/skyler288/sql-challenge/tree/express-branch
-* With FastAPI :
+* With FastAPI : https://github.com/skyler288/sql-challenge/tree/postgresql/FastAPI
 
 ## Our Deck Presentation
