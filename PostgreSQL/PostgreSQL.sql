@@ -201,3 +201,13 @@ INNER JOIN dept_manager_2
 ON dept_manager_2.emp_no = employees.emp_no
 WHERE employees.emp_no = '110022'
 ;
+
+-- EPILOGUE
+SELECT employees.emp_no, employees.first_name, employees.last_name, departments.dept_name
+FROM dept_emp
+INNER JOIN employees
+ON employees.emp_no = dept_emp.emp_no
+INNER JOIN departments
+ON departments.dept_no = dept_emp.dept_no
+WHERE employees.emp_no = '499942';
+;
