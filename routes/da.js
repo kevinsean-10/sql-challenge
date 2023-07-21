@@ -20,7 +20,6 @@ router.get('/satu', (req, res) => {
             SELECT e.emp_no, e.last_name, e.first_name, e.sex, s.salary
             FROM employees e LEFT
             JOIN salaries s ON e.emp_no = s.emp_no
-            LIMIT 5
         `;
 
         connection.query(query, (err, rows) => {
@@ -101,7 +100,6 @@ router.get('/empat', (req, res) => {
         FROM employees e LEFT JOIN 
         dept_emp de on e.emp_no = de.emp_no LEFT JOIN
         departments d on d.dept_no = de.dept_no
-        limit 5
         `;
 
         connection.query(query, (err, rows) => {

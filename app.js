@@ -1,12 +1,11 @@
 require('dotenv').config()
 const express = require('express')
-//const bodyParser = require('body-parser')
 const mysql = require('mysql')
 const app = express()
 
-// parse
-//app.use(bodyParser.urlencoded({ extended: false }))
-//app.use(bodyParser.json())
+// Activate body-parser
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
 
 // Connect to database
 const pool = mysql.createPool({
@@ -21,12 +20,13 @@ const pool = mysql.createPool({
 const depRoutes = require('./routes/dep')
 const EmpRoutes = require('./routes/emp')
 const daRoutes = require('./routes/da')
+const dmRoutes = require('./routes/dm')
 
 //routes
 app.use('/dep', depRoutes)
 app.use('/emp', EmpRoutes)
 app.use('/da', daRoutes)
-
+app.use('/dm', dmRoutes)
 
 // Check if the connection is successful
 pool.getConnection((err, connection) => {

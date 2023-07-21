@@ -15,7 +15,7 @@ const pool = mysql.createPool({
 router.get('/', (req, res) => {
     pool.getConnection((err, connection) => {
         if (err) throw err;
-        connection.query('SELECT * from employees limit 5', (err, rows) => {
+        connection.query('SELECT * from employees', (err, rows) => {
             connection.release(); // return the connection to the pool
 
             if (!err) {
