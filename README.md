@@ -17,3 +17,4 @@ Hello from Team B! Here's what we've accomplished, please check it out!
 * With FastAPI : https://github.com/skyler288/sql-challenge/tree/postgresql
 
 ## Our Deck Presentation
+https://www.canva.com/design/DAFoT9h4J5A/FKitAq13pVRmaZOCaHt1eA/edit
