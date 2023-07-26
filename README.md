@@ -1,3 +1,10 @@
+My name is Sean, and I, along with my friends Kirana (https://github.com/narikub), Yosua (https://github.com/skyler288), and Jaka, completed the SQL Homework by alplky on https://github.com/alplky/sql-challenge.git as Team B Data Intelligence Interns at Astra Digital.
+
+This repository includes the code for answering the SQL Homework by alplky and some additional enhancements to the project, such as Backend Development using FastAPI and Express, and web scraping using Selenium and Beautifulsoup4 packages, all the way to data cleaning and importing to the database.
+
+We have organized the project into different branches to group codes and files within subprojects. Feel free to read, comment, and discuss on this repository. Have a nice day, thank you.
+
+
 # Data Architecture
 Hello from Team B! Here's what we've accomplished, please check it out!
 
